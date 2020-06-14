@@ -27,5 +27,5 @@ Integração das plataformas Pipedrive e Bling com NodeJS
 </ul>
 <h3>Para ultilizar o endpoint, basta mudar o médoto para GET, que então os dados salvos no banco de dados serão mostrados em json</h3>
 <img src="./src/img/endpoint.JPG">
-<h3>Dados salvos no baco</h3>
+<h3>Dados salvos no banco</h3>
 <img src="./src/img/mongodb.JPG">
