@@ -17,7 +17,7 @@ interface Deal {
 class CreateOpportunities {
   public async execute(): Promise<Omit<Deal, 'xml'>> {
     const pipeResponse = await pipedriveApi.get('', {
-      params: { api_token: credentials.pipederiveapitoken },
+      params: { api_token: credentials.pipederiveApiKey },
     });
 
     const newResponse = pipeResponse.data;
