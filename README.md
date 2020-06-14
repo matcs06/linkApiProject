@@ -7,8 +7,8 @@ Integração das plataformas Pipedrive e Bling com NodeJS
 <div>
 <h3>1. Para fazer a integração é necessário fornecer algumas credenciais:</h3>
   <ul>
-    <li>Api key do bling: Pode ser gerada no sistema web</li>
     <li>Api key do pipedrive: Pode ser gerada no sistema web</li>
+    <li>Api key do bling: Pode ser gerada no sistema web</li>
     <li>MongoDB Password: Usada para acessar o mongodb atlas</li>
     <li>MongoDB user: gerado quando solicitamos a conexão com uma aplicação no mongodb atlas</li>
   </ul>
