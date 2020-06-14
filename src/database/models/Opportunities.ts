@@ -3,12 +3,8 @@ import mongoose, { Schema, Document } from 'mongoose';
 // Estrutura da tabela no banco
 const OpportunitiesSchema: Schema = new Schema(
   {
-    name: {
+    order: {
       type: String,
-      required: true,
-    },
-    value: {
-      type: Number,
       required: true,
     },
   },
@@ -18,8 +14,7 @@ const OpportunitiesSchema: Schema = new Schema(
 );
 
 export interface SavedOpportunitiesDocument extends Document {
-  name: string;
-  value: number;
+  order: string;
 }
 
 // exportando model

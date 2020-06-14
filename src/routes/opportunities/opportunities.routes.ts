@@ -5,14 +5,17 @@ import CreateOpportunityService from '../../services/CreateOpportunities';
 const opportunitiesRouter = Router();
 
 opportunitiesRouter.post('/', async (req, res) => {
-  const { name, value } = req.body;
-
   const CreateOpportunities = new CreateOpportunityService();
 
-  const opportunities = await CreateOpportunities.execute({
-    name,
-    value,
-  });
+  const opportunities = await CreateOpportunities.execute();
+
+  return res.json(opportunities);
+});
+
+opportunitiesRouter.get('/', async (req, res) => {
+  const CreateOpportunities = new CreateOpportunityService();
+
+  const opportunities = await CreateOpportunities.show();
 
   return res.json(opportunities);
 });
