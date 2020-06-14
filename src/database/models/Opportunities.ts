@@ -1,9 +1,22 @@
+/* eslint-disable camelcase */
 import mongoose, { Schema, Document } from 'mongoose';
 
 // Estrutura da tabela no banco
 const OpportunitiesSchema: Schema = new Schema(
   {
-    order: {
+    org_name: {
+      type: String,
+      required: true,
+    },
+    title: {
+      type: String,
+      required: true,
+    },
+    value: {
+      type: Number,
+      required: true,
+    },
+    update_time: {
       type: String,
       required: true,
     },
@@ -14,7 +27,10 @@ const OpportunitiesSchema: Schema = new Schema(
 );
 
 export interface SavedOpportunitiesDocument extends Document {
-  order: string;
+  org_name: string;
+  title: string;
+  value: string;
+  update_time: string;
 }
 
 // exportando model
