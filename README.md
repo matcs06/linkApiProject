@@ -18,7 +18,7 @@ Integração das plataformas Pipedrive e Bling com NodeJS
   </ul>
 </div>
 <div>
-  <h3>Para adicionar negócios do Pipedrive com o status igual a GANHO para o Bling como um pedido basta rodar a seguinte url: http://localhost:3333/addtobling  com o método POST</h3>
+  <h3>2. Para adicionar negócios do Pipedrive com o status igual a GANHO para o Bling como um pedido basta rodar a seguinte url: http://localhost:3333/addtobling  com o método POST</h3>
   <ul>
     <li>Negócio com o status igual a ganho:</li>
     <img src="./src/img/ganho.JPG">
@@ -30,14 +30,14 @@ Integração das plataformas Pipedrive e Bling com NodeJS
   </ul>
 </div>
 <div>
-  <h3>Para ultilizar o endpoint, basta mudar o médoto para GET, que então os dados salvos no banco de dados serão mostrados em json</h3>
+  <h3>3. Para ultilizar o endpoint, basta mudar o médoto para GET, que então os dados salvos no banco de dados serão mostrados em json</h3>
   <img src="./src/img/endpoint.JPG">
   <h3>Dados salvos no banco</h3>
   <img src="./src/img/mongodb.JPG">
   <div>
     <ul>
       <li>Obs: Não passei todos os capos para a ordem do bling, porque fiquei confuso com a correspondencia de alguns campos entre as duas API'S, alguns eu nem encontrei, por isso a emissão da nfe mostra alguns avisos de obrigatoriedade de alguns campos, mas a ordem é gerada corretamente</li>
-      <img src="./src/img/nge.JPG">
+      <img src="./src/img/nfe.JPG">
     </ul>
   </div>
 </div>
