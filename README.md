@@ -22,7 +22,7 @@ Integração das plataformas Pipedrive e Bling com NodeJS
   <li>Rodando a aplicação com o srcipt: "yarn dev:server" e rodando na url http://localhost:3333/addtobling com o método POST <p>
   <img src="./src/img/insomnia.JPG">
   <li>Os deals com o status igual a "won/ganho" são automáticamente adicionados como pedido no Bling</li>
-  <li>O valor aparece no total como 40R$ porque forma adicionados dois itens na ordem de venda</li>
+  <li>O valor aparece no total como 40R$ porque foram adicionados dois itens na ordem de venda</li>
   <img src="./src/img/bling.JPG">
 </ul>
 <h3>Para ultilizar o endpoint, basta mudar o médoto para GET, que então os dados salvos no banco de dados serão mostrados em json</h3>
