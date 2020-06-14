@@ -15,7 +15,7 @@ Integração das plataformas Pipedrive e Bling com NodeJS
     <li>As credencias serão passadas para as seguintes variáveis</li>
     <img src="./src/img/cred.JPG">
   </ul>
-<h3>Pata adicionar negócios do Pipedrive com o status igual a GANHO para o Bling como um pedido basta rodar a seguinte url: http://localhost:3333/addtobling  com o método POST</h3>
+<h3>Para adicionar negócios do Pipedrive com o status igual a GANHO para o Bling como um pedido basta rodar a seguinte url: http://localhost:3333/addtobling  com o método POST</h3>
 <ul>
   <li>Negócio com o status igual a ganho:</li>
   <img src="./src/img/ganho.JPG">
