@@ -11,6 +11,7 @@ Integração das plataformas Pipedrive e Bling com NodeJS
     <li>Api key do bling: Pode ser gerada no sistema web</li>
     <li>MongoDB Password: Usada para acessar o mongodb atlas</li>
     <li>MongoDB user: gerado quando solicitamos a conexão com uma aplicação no mongodb atlas</li>
+    <li>Não esquecer de mudar o nome do banco de dados(onde está "linkapi") no link de conexão do banco fica dentro do src/database/index.ts</li> 
   </ul>
   <ul>
     <li>As credencias serão passadas para as seguintes variáveis</li>
